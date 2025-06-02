@@ -10,4 +10,4 @@ Loss and Optimization: The model uses CrossEntropyLoss. Optimization is handle
 After training, model performance is evaluated on the test set using overall accuracy as well as a confusion matrix to visualize true vs. predicted labels. A seaborn heatmap provides a normalized view of this matrix.
 
 **Training Performance: **
-The model trains over 100 epochs with mini-batches of size 16. On the Apple M3 Max (CPU execution), total training time is approximately 13 seconds, achieving fairly high test accuracy (~95%).
+The model trains over 100 epochs with batches of size 16. On the Apple M3 Max (CPU execution), total training time is approximately 13 seconds, achieving fairly high test accuracy (~95%).
